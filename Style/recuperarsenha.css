@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(../Images/Tecnologia.jpg);
+    background-position: center;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+.code-acess{
+    width: 50vw;
+    height: 50vh;
+    background-color:#0A0C18;
+    margin-top: 13%;
+    margin-left: 25%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    border: 5px solid #00A5A6;
+    padding-top: 2%;
+    text-align: center;
+}
+.titulo
+{
+    color:#00A5A6;
+    font-weight:bold;
+    border-bottom: 2px dashed #0c4949; 
+     width: 20vw;
+     display: inline-block;
+     padding: 2%;
+     text-align: left;
+}
+.texto
+{
+    color:#00A5A6;
+    font-weight: bold;
+    width: 35vw;
+    display: inline-block;
+    text-align: left;
+    padding-top:4%;
+    line-height:20px;
+}
+.code-password
+{
+    height: 10vw;
+    width: 25vw;
+    align-self: center;
+    display: flex;
+    margin-left: 24%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.code-password input
+{
+   width: 30vw;
+   height: 3vw;
+   margin-top: 5%;
+   margin-bottom: 3%;
+   background-color:#0A0C18;
+   border:3px solid #fff;
+   color: #fff;
+   letter-spacing: 2px;
+   padding-left: 1%;
+}
+.code-password input:hover
+{
+     content: '';
+     width: 20;
+     height: 3vw;
+     border:3px solid #00A5A6;
+     display: block;
+     transition: 0.4s;
+   
+}
+.code input::placeholder
+{
+    color: #fff;
+    margin-left: 1%;
+    letter-spacing: 1px;
+}
+.reset-password button span
+{
+    color: #fff;
+    font-weight: bold;
+}
+.reset-password button 
+{
+    height: 4vw;
+    width: 30vw;
+    background-color:#00A5A6;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom:2%;
+}
+.reset-password button:hover
+{
+    background-color: #027575;
+    cursor: pointer;
+}
+
+.reset-password 
+{
+    display:flex;
+    margin-right: 1%;
+    flex-direction: column;
+}
+.button
+{
+   margin-top: 2%;
+   font-size: 18px;
+}
