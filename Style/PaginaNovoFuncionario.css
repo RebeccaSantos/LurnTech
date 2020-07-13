@@ -86,27 +86,48 @@
 }
 .funcionarios {
     margin-left: 25%;
-    margin-top: 5%;
+    margin-top: 8%;
     background-color: rgba(0,0,0,0.8);
     width: 65vw;
     border-radius: 10px;
-    height: 60vh;
+    height: 35vw;
+    justify-content: center;
+ 
 }
-.funcionarios h1
+.funcionarios-texto h1
 {
     color:#fff;
-    margin-left:3%;
-    
+    margin-left:5%;
+    margin-bottom: 5%;
+    margin-top:3%;
 }
-.funcionarios-linha
+.input input::placeholder
 {
-    flex-direction: row;
+    color:#00A5A6;
+}
+.input input
+{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    height: 3vw;
+    width: 35vw;
+    flex-direction:column;
     display: flex;
-    align-self: center;
-    align-items: center;
-    height: 56vw;
-    width: 40vh;
-
+    margin-left:-5%;
+    background-color:rgba(0,0,0,0.1);
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom:1px solid #00A5A6;
+}
+.img
+{
+    height:15vw;
+    width: 15vw;
+    background-color: blanchedalmond;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 10px;
 }
 .novo-funcionario img
 {
@@ -114,10 +135,10 @@
 }
 .novo-funcionario
 {
-    margin-right:0%;
-    margin-left: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
+    align-self: center;
+    justify-content: center;
+    flex-direction:row;
+    display: flex;
 }
 .vertical-bar{
     height: 100%;
