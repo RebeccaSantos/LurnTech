@@ -124,3 +124,172 @@
     cursor: pointer;
 }
 
+.second-line{
+    width: 99.13vw;
+    height: 100vh;
+    background-color: #0A0C18;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-central{
+    width: 70%;
+    height: 60%;
+    background-color: honeydew;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+}
+
+.picture-empresa{
+    width: 35%;
+    height: 100%;
+    background-color: #0A0C18;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+}
+.picture-empresa img{
+    width: 60%;
+    height: 50%;
+    margin-top: 25%;
+}
+
+.message-empresa{
+    width: 65%;
+    height: 100%;
+    background-color: #0A0C18;
+}
+
+.message-empresa h1{
+    margin-top: 8%;
+    color: #00A5A6;
+    text-align: center;
+}
+
+.message-empresa p{
+    color: white;
+    text-align: justify;
+    font-size: 35px;
+    margin-right: 40px;
+}
+
+.third-line{
+    width: 99.13vw;
+    height: 100vh;
+    background-color: #8C92AC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-picture-1{
+    width: 30vw;
+    height: 70vh;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text-picture-2{
+    width: 30vw;
+    height: 70vh;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.text-picture-3{
+    width: 30vw;
+    height: 70vh;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.picture-1{
+    width: 30vw;
+    height: 35vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.image-1{
+    width: 18vw;
+    height: 35vh;
+    background-color: #00A5A6;
+    border-radius: 50%;
+}
+
+.text-1{
+    width: 30vw;
+    height: 35vh;
+}
+
+.picture-2{
+    width: 30vw;
+    height: 35vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.image-2{
+    width: 18vw;
+    height: 35vh;
+    background-color: #00A5A6;
+    border-radius: 50%;
+}
+
+.text-2{
+    width: 30vw;
+    height: 35vh;
+}
+
+.picture-3{
+    width: 30vw;
+    height: 35vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.image-3{
+    width: 18vw;
+    height: 35vh;
+    background-color: #00A5A6;
+    border-radius: 50%;
+}
+
+.text-3{
+    width: 30vw;
+    height: 35vh;
+}
+
+.service-1{
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+}
+
+.service-2{
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+}
+
+.service-3{
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+}
