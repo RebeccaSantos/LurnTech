@@ -150,12 +150,22 @@
 }
 
 .Dados{
-    height: 20vh;
-    width: 20vw;
-    margin:20px;
-    display: flex;
+    height: 20vw;
+    width: 25vw;
     align-self: center;
-    flex-direction: row;
-    color: ivory;
+    display: flex;
+    flex-direction:column;
     justify-content: center;
+    align-items: center;
 }
+
+.Dados-Conta
+{
+    margin: 10px;
+    color: ivory;
+}
+
+
+
+
+
