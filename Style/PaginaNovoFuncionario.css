@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    background-position: center;
+    overflow-x: hidden;
+    position: relative;
+    background-image:url(../Images/Tecnologia.jpg);
+}
+
+.nav-bar{
+    display: flex;
+    padding: 40px 120px ;
+    flex-direction: column;
+    width: 90.6%;
+    background-color: black;
+    height:5vh;
+}
+.perfil
+{
+    flex-direction: row;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    width:100%;
+    
+}
+.foto img
+{
+  height: 30px;
+  display: inline-block;
+  margin-right:20px;
+ 
+}
+.sininho img
+{
+  height: 30px;
+  display: inline-block;
+  margin-right:5px;
+}
+
+.vertical-bar .nav-logo img{
+    width: 135px;
+    margin-top: 10%;
+    margin-left:5%;
+}
+
+.nav-links{
+    flex: 1;
+    background-color:black;
+}
+
+.nav-links ul{
+    margin-left:150px;
+    display: inline;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+
+.nav-links ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #00A5A6;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+.funcionarios {
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: rgba(0,0,0,0.8);
+    width: 65vw;
+    border-radius: 10px;
+    height: 60vh;
+}
+.funcionarios h1
+{
+    color:#fff;
+    margin-left:3%;
+    
+}
+.funcionarios-linha
+{
+    flex-direction: row;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    height: 56vw;
+    width: 40vh;
+
+}
+.novo-funcionario img
+{
+    height:60px;
+}
+.novo-funcionario
+{
+    margin-right:0%;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.vertical-bar{
+    height: 100%;
+    background: #00A5A6;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width:18vw;
+}
+
+
+.rh img
+{
+    height: 30px;
+}
+.compras img
+{
+    height: 30px; 
+}
+.vendas img
+{
+    height: 30px; 
+}
+.estoque img
+{
+    height: 30px; 
+}
+.financeiro img
+{
+    height: 30px; 
+}
+.compras
+{
+    margin-top: 10%;
+    margin-bottom:10%;
+    margin-left:5%;
+    
+}
+.rh
+{
+    margin-top: 10%;
+    margin-bottom:10%;
+    margin-left:7%;
+}
+.vendas
+{
+    margin-top: 10%;
+    margin-bottom:10%;
+    margin-left:7%;
+}
+.estoque
+{
+    margin-top: 10%;
+    margin-bottom:10%;
+    margin-left:7%;
+}
+.financeiro
+{
+    margin-top: 10%;
+    margin-bottom:10%;
+    margin-left:7%;
+}
+.compras
+{
+    margin-top: 10%;
+    margin-bottom:10%;
+    margin-left:7%;
+}
+.icons a
+{
+    margin-left:3%;
+    text-decoration:none;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
